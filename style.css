@@ -31,8 +31,7 @@ input {
     box-shadow: 2px 5px grey;
     font-size: small;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: white;
 }
 
 #btn {
