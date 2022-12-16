@@ -1,0 +1,57 @@
+body{
+    background-image: url('https://images.pexels.com/photos/2915965/pexels-photo-2915965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+body:hover{
+    background-image: url('https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    transition:2s;
+}
+
+.container {
+    height: 79vh;
+    width: 35vw;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+input {
+    height: 0.5%;
+    width: 95%;
+    margin: 5px;
+    padding: 5%;
+    outline: none;
+    border: 0px dotted darkcyan;
+    border-radius: 50px;
+    box-shadow: 2px 5px grey;
+    font-size: small;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#btn {
+    box-sizing: border-box;
+    width: 93%;
+    height: 10%;
+    margin: auto;
+    border: 1px solid rebeccapurple;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 2%;
+    background-color: black;
+    box-shadow: 2px 5px transparent;
+    margin-top: 2px;
+    color: white;
+}
+body h4{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: cursive;
+}
